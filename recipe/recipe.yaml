@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.2.3"
+  version: "0.3.1"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tau-ai/tau_ai-${{ version }}.tar.gz
-    sha256: 7d210a62aa28b21d5c6f8a1c19683f2e0638044e1f6860e252c40d169a54c592
+    sha256: fb4f7a6a6548efcb9b269ac6ca5bee56e3f5649d668b4ed0deb7b4b19e23fe42
 
 build:
   number: 0
@@ -29,7 +29,7 @@ requirements:
     - httpx >=0.27
     - socksio >=1.0.0,<2.0.0
     - packaging >=24.0
-    - pydantic >=2.0
+    - pydantic >=2.11
     - pygments >=2.18
     - rich >=13.0
     - textual >=8.2.8
