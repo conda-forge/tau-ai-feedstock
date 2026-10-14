@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.4.7"
+  version: "0.4.8"
   python_min: "3.12"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/t/tau-ai/tau_ai-${{ version }}.tar.gz
-    sha256: f1c6c976589f8948f5898729dfad8b0f5001c0cf7840f8ac12c06f53357ca4fb
+    sha256: ac7acc4ef6255ac06a8aea59e57fba7fb2767857e1323617dfb98445615dabe3
 
 build:
   number: 0
